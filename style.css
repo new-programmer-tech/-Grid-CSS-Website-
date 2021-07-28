@@ -156,7 +156,10 @@ section.info .content {
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-
+.portfolio figure img {
+  width:100%;
+  box-shadow: var(--shadow);
+  }
 footer {
   background: var(--dark);
   color: #fff;
