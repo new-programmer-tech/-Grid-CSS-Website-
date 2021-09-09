@@ -26,7 +26,8 @@ body {
   border: 0;
 }
 
-img {
+img 
+{
   max-width: 100%;
 }
 
@@ -34,6 +35,8 @@ img {
   display: grid;
   grid-gap: 20px;
 }
+
+
 /* navbar */
 
 .main-nav ul {
@@ -72,8 +75,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: linear-gradient(rgba(146, 110, 110, 0.1), rgba(0, 0, 0, 0.7)),
-    url(images/setup.jpg);
+  background: linear-gradient(rgba(146, 110, 110, 0.1), rgba(0, 0, 0, 0.7)),url(images/setup.jpg);
   opacity: 10;
   background-position: center;
   background-size: cover;
@@ -207,4 +209,14 @@ footer {
       "top-box-a"
       "top-box-b";
   }
+}
+
+
+@media (max-width: 700px)
+section.info .content .btn {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-right: 3rem;
+    min-width: 159px;
 }
